@@ -25,139 +25,145 @@ TITLE: CODEBOOK for Coursera Getting and Cleaning Data Course Project
 
 
 After removing features not containing means or standard deviations, we are left with 66 feature variables, 
-33 means and 33 standard deviations.  Original files are listed below the list of 66 included variables.
+33 of which were mean and 33 of which were standard deviation (std).  
 
-1) tBodyAcc-mean()-X 
+Original files are listed below this list of the 66 included feature variables.
 
-2) tBodyAcc-mean()-Y 
+Legend: 
+std = "standard deviation"
+fds = "frequency domain signals"
 
-3) tBodyAcc-mean()-Z 
+1) tBodyAcc-mean()-X 			(mean time - body acceleration signal - X axis)
 
-4) tBodyAcc-std()-X 
+2) tBodyAcc-mean()-Y 			(mean time - body acceleration signal - Y axis)
 
-5) tBodyAcc-std()-Y 
+3) tBodyAcc-mean()-Z 			(mean time - body acceleration signal - Z axis)
 
-6) tBodyAcc-std()-Z
+4) tBodyAcc-std()-X 			(std time - body acceleration signal - X axis)
 
-7) tGravityAcc-mean()-X 
+5) tBodyAcc-std()-Y 			(std time - body acceleration signal - Y axis)
 
-8) tGravityAcc-mean()-Y 
+6) tBodyAcc-std()-Z			(std time- body acceleration signal - Z axis)
 
-9) tGravityAcc-mean()-Z 
+7) tGravityAcc-mean()-X 		(mean time - gravity acceleration signal - X axis)
 
-10) tGravityAcc-std()-X 
+8) tGravityAcc-mean()-Y 		(mean time - gravity acceleration signal - Y axis)
 
-11) tGravityAcc-std()-Y 
+9) tGravityAcc-mean()-Z 		(mean time - gravity acceleration signal - Z axis)
 
-12) tGravityAcc-std()-Z
+10) tGravityAcc-std()-X 		(std time - gravity acceleration signal - X axis)
 
-13) tBodyAccJerk-mean()-X 
+11) tGravityAcc-std()-Y 		(std time - gravity acceleration signal - Y axis)
 
-14) tBodyAccJerk-mean()-Y 
+12) tGravityAcc-std()-Z			(std time - gravity acceleration signal - Z axis)
 
-15) tBodyAccJerk-mean()-Z 
+13) tBodyAccJerk-mean()-X 		(mean time - body linear acceleration Jerk signal - X axis)
 
-16) tBodyAccJerk-std()-X 
+14) tBodyAccJerk-mean()-Y 		(mean time - body linear acceleration Jerk signal - Y axis)
 
-17) tBodyAccJerk-std()-Y 
+15) tBodyAccJerk-mean()-Z 		(mean time - body linear acceleration Jerk signal - Z axis)
 
-18) tBodyAccJerk-std()-Z
+16) tBodyAccJerk-std()-X 		(std time - body linear acceleration Jerk signal - X axis)
 
-19) tBodyGyro-mean()-X 
+17) tBodyAccJerk-std()-Y 		(std time - body linear acceleration Jerk signal - Y axis)
 
-20) tBodyGyro-mean()-Y 
+18) tBodyAccJerk-std()-Z		(std time - body linear acceleration Jerk signal - Z axis)
 
-21) tBodyGyro-mean()-Z 
+19) tBodyGyro-mean()-X 			(mean time - body angular velocity signal - X axis)
 
-22) tBodyGyro-std()-X 
+20) tBodyGyro-mean()-Y 			(mean time - body angular velocity signal - Y axis)
 
-23) tBodyGyro-std()-Y 
+21) tBodyGyro-mean()-Z 			(mean time - body angular velocity signal - Z axis)
 
-24) tBodyGyro-std()-Z 
+22) tBodyGyro-std()-X 			(std time - body angular velocity signal - X axis)
 
-25) tBodyGyroJerk-mean()-X
+23) tBodyGyro-std()-Y 			(std time - body angular velocity signal - Y axis)
 
-26) tBodyGyroJerk-mean()-Y 
+24) tBodyGyro-std()-Z 			(std time - body angular velocity signal - Z axis)
 
-27) tBodyGyroJerk-mean()-Z 
+25) tBodyGyroJerk-mean()-X		(mean time - body angular velocity Jerk signal - X axis)
 
-28) tBodyGyroJerk-std()-X 
+26) tBodyGyroJerk-mean()-Y 		(mean time - body angular velocity Jerk signal - Y axis)
 
-29) tBodyGyroJerk-std()-Y 
+27) tBodyGyroJerk-mean()-Z 		(mean time - body angular velocity Jerk signal - Z axis)
 
-30) tBodyGyroJerk-std()-Z 
+28) tBodyGyroJerk-std()-X 		(std time - body angular velocity Jerk signal - X axis)
 
-31) tBodyAccMag-mean()
+29) tBodyGyroJerk-std()-Y 		(std time - body angular velocity Jerk signal - Y axis)
 
-32) tBodyAccMag-std() 
+30) tBodyGyroJerk-std()-Z 		(std time - body angular velocity Jerk signal - Z axis)
 
-33) tGravityAccMag-mean() 
+31) tBodyAccMag-mean()			(mean time - body linear acceleration magnitude 3D signals)
 
-34) tGravityAccMag-std() 
+32) tBodyAccMag-std() 			(std time - body linear acceleration magnitude 3D signals)
 
-35) tBodyAccJerkMag-mean() 
+33) tGravityAccMag-mean() 		(mean time - gravity linear acceleration magnitude 3D signals)
 
-36) tBodyAccJerkMag-std() 
+34) tGravityAccMag-std() 		(std time - gravity linear acceleration magnitude 3D signals)
 
-37) tBodyGyroMag-mean()
+35) tBodyAccJerkMag-mean() 		(mean time - body linear acceleration Jerk magnitude - 3D signals)
 
-38) tBodyGyroMag-std() 
+36) tBodyAccJerkMag-std() 		(std time - body linear acceleration Jerk magnitude - 3D signals)
 
-39) tBodyGyroJerkMag-mean() 
+37) tBodyGyroMag-mean()			(mean time - body angular velocity magnitude - 3D signals)
 
-40) tBodyGyroJerkMag-std() 
+38) tBodyGyroMag-std() 			(std time - body angular velocity magnitude - 3D signals)
 
-41) fBodyAcc-mean()-X 
+39) tBodyGyroJerkMag-mean() 		(mean time - body angular velocity Jerk magnitude - 3D signals)
 
-42) fBodyAcc-mean()-Y 
+40) tBodyGyroJerkMag-std() 		(std time - body angular velocity Jerk magnitude - 3D signals)
 
-43) fBodyAcc-mean()-Z 
+41) fBodyAcc-mean()-X 			(mean fds - body acceleration signal - X axis)
 
-44) fBodyAcc-std()-X
+42) fBodyAcc-mean()-Y 			(mean fds - body acceleration signal - Y axis)
 
-45) fBodyAcc-std()-Y 
+43) fBodyAcc-mean()-Z 			(mean fds - body acceleration signal - Z axis)
 
-46) fBodyAcc-std()-Z 
+44) fBodyAcc-std()-X			(std fds - body acceleration signal - X axis)
 
-47) fBodyAccJerk-mean()-X 
+45) fBodyAcc-std()-Y 			(std fds - body acceleration signal - Y axis)
 
-48) fBodyAccJerk-mean()-Y 
+46) fBodyAcc-std()-Z 			(std fds - body acceleration signal - Z axis)
 
-49) fBodyAccJerk-mean()-Z 
+47) fBodyAccJerk-mean()-X 		(mean fds - body linear acceleration Jerk signal - X axis)
 
-50) fBodyAccJerk-std()-X 
+48) fBodyAccJerk-mean()-Y 		(mean fds - body linear acceleration Jerk signal - Y axis)
 
-51) fBodyAccJerk-std()-Y
+49) fBodyAccJerk-mean()-Z 		(mean fds - body linear acceleration Jerk signal - Z axis)
 
-52) fBodyAccJerk-std()-Z 
+50) fBodyAccJerk-std()-X 		(std fds - body linear acceleration Jerk signal - X axis)
 
-53) fBodyGyro-mean()-X 
+51) fBodyAccJerk-std()-Y		(std fds - body linear acceleration Jerk signal - Y axis)
 
-54) fBodyGyro-mean()-Y 
+52) fBodyAccJerk-std()-Z 		(std fds - body linear acceleration Jerk signal - Z axis)
 
-55) fBodyGyro-mean()-Z 
+53) fBodyGyro-mean()-X 			(mean fds - body angular velocity signal - X axis)
 
-56) fBodyGyro-std()-X 
+54) fBodyGyro-mean()-Y 			(mean fds - body angular velocity signal - Y axis)
 
-57) fBodyGyro-std()-Y 
+55) fBodyGyro-mean()-Z 			(mean fds - body angular velocity signal - Z axis)
 
-58) fBodyGyro-std()-Z
+56) fBodyGyro-std()-X 			(std fds - body angular velocity signal - X axis)
 
-59) fBodyAccMag-mean() 
+57) fBodyGyro-std()-Y 			(std fds - body angular velocity signal - Y axis)
 
-60) fBodyAccMag-std() 
+58) fBodyGyro-std()-Z			(std fds - body angular velocity signal - Z axis)
 
-61) fBodyBodyAccJerkMag-mean() 
+59) fBodyAccMag-mean() 			(mean fds - body linear acceleration magnitude 3D signals)
 
-62) fBodyBodyAccJerkMag-std() 
+60) fBodyAccMag-std() 			(std fds - body linear acceleration magnitude 3D signals)
 
-63) fBodyBodyGyroMag-mean() 
+61) fBodyBodyAccJerkMag-mean() 		(mean fds - body linear acceleration Jerk magnitude - 3D signals)
 
-64) fBodyBodyGyroMag-std()
+62) fBodyBodyAccJerkMag-std() 		(std fds - body linear acceleration Jerk magnitude - 3D signals)
 
-65) fBodyBodyGyroJerkMag-mean() 
+63) fBodyBodyGyroMag-mean() 		(mean fds - body angular velocity magnitude - 3D signals)
 
-66) fBodyBodyGyroJerkMag-std()
+64) fBodyBodyGyroMag-std()		(std fds - body angular velocity magnitude - 3D signals)
+
+65) fBodyBodyGyroJerkMag-mean() 	(mean fds - body angular velocity Jerk magnitude - 3D signals)
+
+66) fBodyBodyGyroJerkMag-std()		(std fds - body angular velocity Jerk magnitude - 3D signals)
 
 
 -- "UCI HAR Dataset/features.txt" contains all feature variables.  They are derived as follows:
