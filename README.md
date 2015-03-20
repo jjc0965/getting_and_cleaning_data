@@ -1,4 +1,4 @@
-TITLE: CODEBOOK for Coursera Getting and Cleaning Data Course Project - Describes Variables
+TITLE: README for Coursera Getting and Cleaning Data Course Project - Describes Variables
 
 
 "activity_labels" imports the different types of activities (6 different types) into R.
